@@ -1,0 +1,5 @@
+templates/
+include/boost/
+lib/boost/
+main
+*.o
