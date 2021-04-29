@@ -5,7 +5,7 @@ PTHREAD = -pthread
 BUILD_DIR = .
 
 LIBS_DIR = ./lib
-INCLUDE_DIR=./include
+INCLUDE_DIR = ./include
 
 ifeq (${DEBUG}, gdb)
 MODE = -ggdb

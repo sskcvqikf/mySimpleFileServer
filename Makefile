@@ -7,5 +7,3 @@ $(BUILD_DIR)/%.o: %.cc
 $(BUILD_DIR)/$(GOAL): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-clear_obj:
-	rm -r ${BUILD_DIR}

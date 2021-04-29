@@ -158,7 +158,7 @@ void runServer(){
     boost::asio::io_context ioc;
     tcp::acceptor actor{ioc};
     std::cout << "Created acceptor.\n";
-    tcp::endpoint ep{boost::asio::ip::make_address("127.0.0.1"), (unsigned short)6969};
+    tcp::endpoint ep{boost::asio::ip::make_address("0.0.0.0"), (unsigned short)6969};
     std::cout << "Created endpoint.\n";
     actor.open(tcp::v4());
     actor.bind(ep);

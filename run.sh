@@ -1,4 +1,4 @@
-# /bin/sh
+#!/bin/sh
 
 START_DIR=$(pwd)
 INCLUDE_DIR=$START_DIR/include
